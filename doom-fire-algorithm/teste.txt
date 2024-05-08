@@ -1,0 +1,10 @@
+            
+            #<button id="showFire">fire</button>
+            #<button id="showMatrix">matrix</button>
+
+            document.getElementById("showFire").addEventListener("click", function() {
+	debug = false;
+});
+document.getElementById("showMatrix").addEventListener("click", function() {
+	debug = true;
+});
