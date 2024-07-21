@@ -1,0 +1,25 @@
+.button {
+    width: 157px;
+    height: 48px;
+    border-radius: 82px 82px 82px 82px;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    border: 1px solid #062665;
+    margin-left: 641.5px;
+    margin-top: 32px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 117.5px;
+    margin-right: 117.5px;
+    margin-top: 80px;
+    gap: 32px;
+    z-index: 10;
+}
+
+.content {
+    @media (max-width: 393px) {
+    }
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../Fonts/D-DIN/D-DIN.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VisbyCF';
+    src: url('../Fonts/VisbyCF/VisbyLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VisbyCF';
+    src: url('../Fonts/VisbyCF/VisbyMedium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VisbyCF';
+    src: url('../Fonts/VisbyCF/VisbyBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VisbyCF';
+    src: url('../Fonts/VisbyCF/VisbyExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'VisbyCF';
+    src: url('../Fonts/VisbyCF/VisbyHeavy.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  /* Import Tailwind base styles */
+  @import 'tailwindcss/base';
+  
+  /* Import Tailwind components */
+  @import 'tailwindcss/components';
+  
+  /* Import Tailwind utilities */
+  @import 'tailwindcss/utilities';
